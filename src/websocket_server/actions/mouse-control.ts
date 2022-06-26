@@ -11,25 +11,25 @@ const mouseMove = (valueX = 0, valueY = 0): void => {
 export const moveUp = async (offset: number): Promise<string> => {
     mouseMove(0, -offset);
 
-    return 'move_up';
+    return 'move_up\0';
 };
 
 export const moveDown = async (offset: number): Promise<string> => {
     mouseMove(0, offset);
 
-    return 'move_down';
+    return 'move_down\0';
 };
 
 export const moveLeft = async (offset: number): Promise<string> => {
     mouseMove(-offset, 0);
 
-    return 'move_left';
+    return 'move_left\0';
 };
 
 export const moveRight = async (offset: number): Promise<string> => {
     mouseMove(offset, 0);
 
-    return 'move_right';
+    return 'move_right\0';
 };
 
 export const mousePosition = async (): Promise<string> => {
