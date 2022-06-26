@@ -1,5 +1,4 @@
-# RSSchool NodeJS websocket task template
-> Static http server and base task packages.
+# Remote-control
 
 ## Installation
 1. Clone/download repo
@@ -12,19 +11,6 @@
 
 * App served @ `http://localhost:8181` with nodemon
 
-**Production**
+## Note
 
-`npm run start`
-
-* App served @ `http://localhost:8181` without nodemon
-
----
-
-**All commands**
-
-Command | Description
---- | ---
-`npm run dev` | App served @ `http://localhost:8181` with nodemon
-`npm run start` | App served @ `http://localhost:8181` without nodemon
-
-**Note**: replace `npm` with `yarn` in `package.json` if you use yarn.
+There is a delay of one second before the start of drawing for the click to be pressed.
