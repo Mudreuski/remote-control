@@ -1,14 +1,14 @@
 {
     "name": "ws_task",
     "version": "1.0.0",
-    "description": "Template for the WebSocket remote control task",
+    "description": "Remote control task",
     "main": "index.js",
     "type": "commonjs",
     "scripts": {
         "build": "tsc",
         "start:dev": "nodemon"
     },
-    "author": "Andrei Auchynnikau",
+    "author": "Henadzi Mudreuski",
     "keywords": [],
     "license": "ISC",
     "devDependencies": {
