@@ -15,7 +15,7 @@ export const drawCircle = async (radius: number): Promise<string> => {
         }
 
         mouseToggle('up', 'left');
-    }, 1500);
+    }, 1000);
 
     return 'draw_circle\0';
 }
@@ -40,7 +40,7 @@ export const drawRectangle = async (width: number, height: number = 0): Promise<
         drawLine('y', -1, height);
 
         mouseToggle('up', 'left')
-    }, 1500);
+    }, 1000);
 
     return 'draw_rectangle\0';
 }
@@ -55,7 +55,7 @@ export const drawSquare = async (width: number): Promise<string> => {
         drawLine('y', -1, width);
 
         mouseToggle('up', 'left');
-    }, 500);
+    }, 1000);
 
     return 'draw_square\0';
 }
